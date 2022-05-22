@@ -9,4 +9,4 @@ phases:
     commands:
     - echo "Deploying to the Lambda..!!"
    
-    - aws lambda update-function-code --function-name  demotemp --zip-file fileb://deployment_package.zip
+    - aws lambda update-function-code --function-name  Image-size-reduce --zip-file fileb://deployment_package.zip
